@@ -5,7 +5,7 @@
 
 ## **Prévia**
 
-* Você pode acessar esse site e testa-lo através deste [link]([https://guilhqueiroz.github.io/ListaDeQuestoes/](https://guilhqueiroz.github.io/gerenciamento-de-loja/public/index.html)
+* Você pode acessar esse site e testa-lo através deste [link](https://guilhqueiroz.github.io/gerenciamento-de-loja/public/index.html)
 
  ### Entre em contato comigo: 
 
