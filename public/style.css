@@ -1,0 +1,211 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f2; /* Fundo mais claro */
+  }
+  
+  header {
+    background-color: #232f3e; /* Azul escuro semelhante ao da Amazon */
+    color: #fff;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+  
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff; /* Cor do texto branco */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px; /* Espaçamento interno dos itens */
+}
+
+header nav ul li a:hover {
+    background-color: #1f2b38; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Borda arredondada ao passar o mouse */
+}
+  
+  
+header h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para listas de produtos */
+  ul {
+    list-style: none;
+    padding: 0;
+    overflow-x: auto; /* Barra de rolagem horizontal */
+    white-space: nowrap; /* Impede que os itens quebrem em várias linhas */
+  }
+  
+  ul li {
+    
+    margin-bottom: 10px;
+    margin-right: 10px; /* Espaçamento entre os itens */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Borda arredondada */
+    display: inline-block; /* Exibe os itens em linha */
+    vertical-align: top; /* Alinha os itens ao topo */
+  }
+  
+  ul li img {
+    max-width: 100px;
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+    border-radius: 5px; /* Borda arredondada para imagens */
+  }
+  
+  ul li div {
+    flex: 1;
+  }
+  
+  ul li div h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem; /* Tamanho de fonte um pouco maior */
+  }
+  
+  ul li div p {
+    margin-bottom: 5px;
+  }
+  
+  ul li button {
+    padding: 8px 15px;
+    background-color: #f0c14b; 
+    color: #111;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul li button:hover {
+    background-color: #ddb347; /* Tom mais escuro ao passar o mouse */
+  }
+  
+  /* Estilos para formulários */
+  form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #232f3e; /* Azul escuro para botões */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #37475a; /* Tom mais escuro ao passar o mouse */
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #232f3e; /* Azul escuro para o rodapé */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Estilos adicionais */
+  button {
+    padding: 8px 15px;
+    background-color: #d9534f; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c9302c; /* Tom mais escuro ao passar o mouse */
+  }
+  
+  img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 5px; /* Borda arredondada para imagens */
+  }
+
+  #featured {
+    overflow-x: auto; /* Habilita a rolagem horizontal */
+    white-space: nowrap; /* Impede que os elementos quebrem linha */
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product-list {
+    display: inline-block; /* Exibe os produtos lado a lado */
+    margin-right: 10px; /* Espaçamento entre os produtos */
+    vertical-align: top; /* Alinha os produtos ao topo */
+    min-width: 250px; /* Define a largura mínima dos produtos */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.product-list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
